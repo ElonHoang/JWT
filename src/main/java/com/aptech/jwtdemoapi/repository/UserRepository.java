@@ -1,6 +1,6 @@
-package com.aptech.jwtdemoapi.Repository;
+package com.aptech.jwtdemoapi.repository;
 
-import com.aptech.jwtdemoapi.Entity.User;
+import com.aptech.jwtdemoapi.entity.User;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 

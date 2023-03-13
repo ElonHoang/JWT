@@ -1,10 +1,19 @@
-package com.aptech.jwtdemoapi.Service;
+package com.aptech.jwtdemoapi.service;
 
-import com.aptech.jwtdemoapi.Entity.User;
+import com.aptech.jwtdemoapi.entity.User;
 
+import java.util.Optional;
 import java.util.Set;
 
 public interface UserService {
-    User add(User user);
+    User save(User user);
+
     Set<User> getAll();
+
+    Optional<User> getByUserName(String name);
+
+    void remove(String userName);
+
+
+
 }

@@ -1,4 +1,4 @@
-package com.aptech.jwtdemoapi.Entity;
+package com.aptech.jwtdemoapi.entity;
 
 import jakarta.persistence.*;
 import jakarta.validation.constraints.NotBlank;
