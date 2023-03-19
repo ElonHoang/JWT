@@ -10,9 +10,9 @@ public interface UserService {
 
     Set<User> getAll();
 
-    Optional<User> getByUserName(String name);
+    Optional<User> getUserById(int id);
 
-    void remove(String userName);
+    void remove(int id);
 
 
 

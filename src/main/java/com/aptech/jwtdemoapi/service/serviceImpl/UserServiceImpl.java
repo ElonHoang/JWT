@@ -29,12 +29,12 @@ public class UserServiceImpl implements UserService {
     }
 
     @Override
-    public Optional<User> getByUserName(String name) {
-        return repository.findById(name);
+    public Optional<User> getUserById(int id) {
+        return repository.findById(id);
     }
 
     @Override
-    public void remove(String userName) {
-    repository.deleteById(userName);
+    public void remove(int id) {
+    repository.deleteById(id);
     }
 }
